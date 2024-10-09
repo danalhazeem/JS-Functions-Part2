@@ -8,11 +8,14 @@
  * isOdd(10) -> false
  */
 function isOdd(n) {
-    // Your code here
-    let num = n%2;
-    if (num==1) { console.log( "true" ) }
-    else{  console.log("false") }
+  // Your code here
+  let num = n % 2;
+  if (num == 1) {
+    console.log("true");
+  } else {
+    console.log("false");
   }
+}
 isOdd(7);
 isOdd(8);
 
@@ -27,10 +30,9 @@ isOdd(8);
  */
 function oddsSmallerThan(n) {
   // Your code here
-  console.log(odd =Math.trunc( n/2))
+  console.log((odd = Math.trunc(n / 2)));
 }
 oddsSmallerThan(7);
-
 
 /**
  * squareOrDouble(n):
@@ -42,11 +44,15 @@ oddsSmallerThan(7);
  * squareOrDouble(16) -> 32
  * squareOrDouble(9) -> 81
  */
+console.log("here");
 function squareOrDouble(n) {
   // Your code here
-  let num = n%2;
-    if (num==1) { console.log(n^2)}
-    else{  console.log(n*n) }
+  let num = n % 2;
+  if (num == 1) {
+    console.log(n ** 2);
+  } else {
+    console.log(n * n);
+  }
 }
-squareOrDouble(5);
-squareOrDouble(2);
+squareOrDouble(16);
+squareOrDouble(9);
